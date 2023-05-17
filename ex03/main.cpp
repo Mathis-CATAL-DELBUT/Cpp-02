@@ -6,7 +6,7 @@
 /*   By: mcatal-d <mcatal-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 18:19:10 by mcatal-d          #+#    #+#             */
-/*   Updated: 2023/05/17 18:33:03 by mcatal-d         ###   ########.fr       */
+/*   Updated: 2023/05/17 19:01:09 by mcatal-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	main( int ac, char **av )	{
 
 	(void)ac;
 	(void)av;
-	Point	point(3, 2);
+	Point	point(1.26, 3);
 	Point	a(3, 1);
 	Point	b(3, 4);
 	Point	c(-2, 1);
