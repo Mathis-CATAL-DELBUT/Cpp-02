@@ -6,7 +6,7 @@
 /*   By: mcatal-d <mcatal-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 18:18:08 by mcatal-d          #+#    #+#             */
-/*   Updated: 2023/05/17 18:53:08 by mcatal-d         ###   ########.fr       */
+/*   Updated: 2023/05/17 23:16:41 by mcatal-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 Point::Point( void ) : x(0), y(0) {}
 
-Point::Point( const Point& src ) : x(src.get_x()), y(src.get_y())	{}
+Point::Point( const Point& src ) : x(src.get_x()), y(src.get_y()) {}
 
 Point::Point( const float x, const float y) : x( Fixed(x) ), y( Fixed(y) )	{}
 
